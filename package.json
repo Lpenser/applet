@@ -1,0 +1,26 @@
+{
+  "name": "bang-applet-cli",
+  "version": "0.0.3",
+  "description": "applet-cli",
+  "main": "./bin/start.js",
+  "bin": {
+    "applet": "./bin/start.js"
+  },
+  "keywords": [
+    "applet",
+    "cli"
+  ],
+  "author": "lpenser",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.15.1",
+    "download-git-repo": "^1.0.2",
+    "json5": "^1.0.1",
+    "ora": "^2.1.0",
+    "update-notifier": "^2.5.0",
+    "fs-extra": "^6.0.1"
+  }
+}
